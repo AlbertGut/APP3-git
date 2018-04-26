@@ -1,0 +1,266 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/tema1.min.css"/>
+<link rel="stylesheet" href="css/jquerý.mobile.structure-1.4.5.min.css"/>
+
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"></script> -->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/archivos/deporte2.jpg','imagenes/modernbi.jpg','imagenes/ejemp2.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Dia Mundial de las bicicletas</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>ejemplar</h1>
+<div>
+<p>esta es una bicicleta de turismo: </p>
+<br>
+</div>
+<div>
+<img src="imagenes/ejemp.jpg" width="50%" height="75%"/>
+</div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Historia de la bicicleta</h2>
+<p>Definicion</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Utilización como medio de transporte</h2>
+<p>y cuidados</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Porqué se celebra el día mundial de la bicicleta</h2>
+<p>Explicacion</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Marcas importantes de bicicletas</h2>
+<p>ejemplo y su Marca</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Tipos de Bicicleta</h2>
+<p>Modelos</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bike.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres</h4>
+<h4>Gutierrez Perez Alberto</h4>
+</div>
+</div>
+<div data role ="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Historia de la bicicleta</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>La paternidad de la bicicleta se le atribuye al barón Carl von Drais, inventor alemán. Su rudimentario artefacto, creado alrededor de 1817, se impulsaba apoyando los pies alternativamente sobre el suelo. Existen diversas modalidades deportivas, englobadas dentro del ciclismo, que se practican con este vehículo. Introducida en el siglo XIX en Europa, tuvo un impacto considerable en la historia, tanto en la cultura como en la industria.También en China un artilugio muy similar, pero con ruedas hechas de bambú. En la cultura azteca, se han encontrado vestigios de lo que podría ser algo parecido a un vehículo con dos ruedas y que se impulsaba con un velamen. Las primeras noticias que se tienen sobre una bicicleta datan del año 1490, aproximadamente, en la obra Codex Atlanticus, de Leonardo da Vinci.</h2>
+<a href="https://www.ecured.cu/Bicicleta" target="_self"> !!!Mas informacion aqui!!! </a><BR>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/modernbi.jpg',1)"><img src="imagenes/viejabi.jpg" width="212" height="237" id="Image31"></a> <br>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bike.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres GPA</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Utilización como medio de transporte</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Cuidados al usar tu bicicleta para tus desplazamientos diarios, debes tomar algunas precauciones para que tus viajes sean seguros:</h2>
+<li>Usa el calzado adecuado. Es preferible  zapatos cómodos para evitar torceduras u otro tipo de problemas en los pies.</li>
+<li>Usa siempre bloqueador solar para evitar enfermedades cutáneas como el cáncer de piel debido a la exposición prolongada al sol.</li>
+<li>Recuerda siempre usar el casco y prendas vistosas para lograr ser visto por otros conductores de noche o cuando las condiciones climáticas sean difíciles.</li>
+<li>En lo posible, protege tus ojos con gafas o lentes para evitar que el smog o la contaminación ambiental afecten tu visión.</li>
+<li>Evita el uso de audífonos y otros distractores que afecten tu concentración a la hora de conducir tu bicicleta.</li>
+<li>Respeta siempre las señales de tránsito.</li>
+<li>Si presentas problemas de tipo cardiaco, muscular u óseo, consulta  a tu médico antes de tomar la decisión de montar en una bicicleta frecuentemente.</li>
+<a href="https://www.sura.com/blogs/autos/ventajas-bicicleta-medio-transporte.aspx" target="_self"> !!!Para saber mas del tema, click aqui!!! </a></div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bike.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres GPA</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Día Mundial De La Bicicletas</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>El 19 de abril se celebra el Día Mundial de la Bicicleta, con el objetivo de promover el uso de este medio de transporte sostenible, sano y divertido, y concienciar sobre los derechos de los ciclistas.Y como muchos Días Mundiales e Internacionales, este día tiene una curiosa historia detrás, que te sorprenderá seguro. La fecha hace referencia al 19 de abril de 1943 cuando Albert Hofmann, conocido como el padre del LSD, realizara en su laboratorio un experimento en el que ingirió 0,25 miligramos de ácido lisérgico (LSD) para ver sus efectos y tuvo que volver a casa en bicicleta porque a consecuencia de la guerra no estaba permitido el desplazamiento en vehículos a motor. </h2>
+<a href="http://www.diainternacionalde.com/ficha/dia-mundial-bicicleta" target="_self"> !!!Deseas mas informacion, click aqui!!! </a><br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/ejemp2.jpg',1)"><img src="imagenes/mr.bean.jpg" width="270" height="187" id="Image"></a>
+<p>&nbsp;</p></div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bike.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres GPA</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Marcas importantes de bicicletas</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<li>Cannondale</li>
+<li>Giant</li>
+<li>Merida</li>
+<li>Raleigh</li>
+<li>TREK</li>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/cannon.jpg" alt="cannon" title="cannon" id="wows2_0"/></li>
+		<li><img src="data2/images/giant.jpg" alt="giant" title="giant" id="wows2_1"/></li>
+		<li><img src="data2/images/merida.jpg" alt="merida" title="merida" id="wows2_2"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/raleigh.jpg" alt="jquery slideshow" title="raleigh" id="wows2_3"/></a></li>
+		<li><img src="data2/images/trek.jpg" alt="trek" title="trek" id="wows2_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="cannon"><span><img src="data2/tooltips/cannon.jpg" alt="cannon"/>1</span></a>
+		<a href="#" title="giant"><span><img src="data2/tooltips/giant.jpg" alt="giant"/>2</span></a>
+		<a href="#" title="merida"><span><img src="data2/tooltips/merida.jpg" alt="merida"/>3</span></a>
+		<a href="#" title="raleigh"><span><img src="data2/tooltips/raleigh.jpg" alt="raleigh"/>4</span></a>
+		<a href="#" title="trek"><span><img src="data2/tooltips/trek.jpg" alt="trek"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bike.png" width="46" height="46">
+</div>
+<h4> Aplicacion Tres GPA</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Tipos de Bicicleta</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<li>.cruiser</li>
+	<h2>Están a medio camino entre las bicicletas inglesas y las de montaña. De hecho, fueron las precursoras de las segundas. El cuadro variará en función del modelo, aunque suele ser curvo. La principal característica de las playeras es que presentan neumáticos más gruesos y con menos pulgadas que las bicicletas inglesas y holandesas -se asemejan a los empleados en bicicletas de montaña-.El frenado suele ser contrapedal y es perfecta para entornos urbanos. Puede valer para terrenos montañosos, pero preferiblemente llanos. Cuando hablamos de una bicicleta playera debemos saber que el manillar es bastante amplio y que no suele tener cambios.</h2>
+<li>2.fat bike</li>
+	<h2>Es probable que te suenen unas bicicletas con las ruedas exageradamente anchas. Pues bien, esta tipología son las denominadas fat bikes. El enorme balón delantero de este tipo de bici es el motivo principal por el cual a este vehículo no le hace falta suspensión delantera (aunque hay bicis que si la incluyen).Pero, ¿por qué unos neumáticos tan anchos? La respuesta la encontramos en la finalidad que poseen.  Las fat bikes están diseñadas para rodar en superficies con nieve, arena o barro, por lo que es preciso que tengan un agarre mayor que el resto de vehículos. ¡Prueba tus habilidades en una bici de este tipo!</h2>
+<li>3.Holandesa</li> 
+	<h2>La bicicleta holandesa apareció para evitar todos estos problemas. El cuadro de la bicicleta adoptó una forma curva hacia abajo, evitando dicho problema y favoreciendo una conducción mucho más vertical. ¡Muchos modelos venían hasta con protector de falda para evitar que estas se enredaran con la rueda. Este vehículo fue perdiendo su fama en Reino Unido y en distintos puntos donde era muy popular a medida que pasaba el siglo XX. Sin embargo, uno de los pocos lugares donde siguió conservando su atractivo fue en Países Bajos, de ahí que sean conocidas como bicicletas holandesas.</h2>
+<li>4.Inglesa</li>
+	<h2>La bicicleta inglesa cuenta con múltiples versiones. En este apartado nos referimos a la principal, la roadster. Este modelo es ideal tanto por campo como por ciudad. Cuenta con ángulos de cuadro relajados (unos 68 grados) y puede o no presentar marchas. En el caso de que sí las presente, suele tener tres velocidades. Posee ruedas 700, las ruedas de menor grosor y mayor diámetro que existen.Una particularidad de este tipo de bici es que posee frenos con accionamiento de varilla. Los guardabarros, el sillín algo más bajo que el manillar y una resistencia impecable son otras cualidades de esta bicicleta que seguro has visto por la calle.</h2>
+<li>5.Montañera</li>
+	<h2>Allá adonde vayas, contemplarás una bicicleta de montaña estándar, pues bien, estas son denominadas cross country o rally. Las bicicletas playeras dieron lugar a este modelo en torno a los años 80. Era necesaria una bici que permitiese recorrer los terrenos irregulares y rocosos de montaña. El resto de vehículos de pedales existentes no eran suficientes, ya que se averiaban con facilidad.Teniendo esta necesidad en cuenta, las bicicletas playeras comenzaron a emplearse para este fin más exigente. Paulatinamente, se le fueron retirando determinadas características -como el guardabarros y los adornos- y se le fueron añadiendo otras –como las marchas y los frenos adaptados de la motocicleta-. De esta forma surgieron las bicicletas de montaña estándares o cross country.</h2>
+	<a href="http://www.terranea.es/blog/principales-tipos-bicicletas/" target="_self"> !!!Quieres saber mas de ello, click aqui!!! </a></div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/bicruiser.jpg" alt="bicruiser" title="bicruiser" id="wows1_0"/></li>
+		<li><img src="data1/images/bifat.jpg" alt="bifat" title="bifat" id="wows1_1"/></li>
+		<li><img src="data1/images/biholandesa.jpg" alt="biholandesa" title="biholandesa" id="wows1_2"/></li>
+		<li><img src="data1/images/biinglesa.jpg" alt="biinglesa" title="biinglesa" id="wows1_3"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/bimonelectrica.jpg" alt="jquery slider" title="bimonelectrica" id="wows1_4"/></a></li>
+		<li><img src="data1/images/bimontana.jpg" alt="bimontana" title="bimontana" id="wows1_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="bicruiser"><span><img src="data1/tooltips/bicruiser.jpg" alt="bicruiser"/>1</span></a>
+		<a href="#" title="bifat"><span><img src="data1/tooltips/bifat.jpg" alt="bifat"/>2</span></a>
+		<a href="#" title="biholandesa"><span><img src="data1/tooltips/biholandesa.jpg" alt="biholandesa"/>3</span></a>
+		<a href="#" title="biinglesa"><span><img src="data1/tooltips/biinglesa.jpg" alt="biinglesa"/>4</span></a>
+		<a href="#" title="bimonelectrica"><span><img src="data1/tooltips/bimonelectrica.jpg" alt="bimonelectrica"/>5</span></a>
+		<a href="#" title="bimontana"><span><img src="data1/tooltips/bimontana.jpg" alt="bimontana"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bike.png" width="46" height="46">
+</div>
+<h4> Aplicacion Tres GPA</h4>
+</div>
+</div>
+</body>
+</html>
